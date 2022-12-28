@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@700&display=swap');
+
+:root{
+    font-size: 15px;
+}
+
+body{
+    height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(212, 45%, 89%);
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    width: 19rem;
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 15px;
+    margin: 1rem;
+}
+
+.qr-code{
+    height: 60%;
+}
+
+.qr-code img{
+    width: 17rem;
+    height: 17rem;
+    border-radius: 15px;
+    margin: 1rem 0rem;
+}
+
+.qr-code-text{
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 500;
+
+
+}
+
+.qr-code-text h1{
+    width: 80%;
+    font-size: 1.3rem;
+    color: hsl(218, 44%, 22%);
+    font-weight: 700;
+    margin: 1.4rem 0rem
+}
+
+.qr-code-text p{
+    color: hsl(220, 15%, 55%);
+    padding: 0rem 1rem;
+    margin: 0;
+}
+
+.attribution{
+    font-size: 0.7rem;
+    color: hsl(220, 15%, 55%);
+    text-align: center;  
+    padding: 0rem 3rem;
+}
+
+@media (max-width: 300px) {
+    :root{
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 1400px) or (min-height: 800px){
+    :root{
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 760px) and (min-height: 1000px){
+    :root{
+        font-size: 28px;
+    }
+}
